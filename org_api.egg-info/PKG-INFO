@@ -1,0 +1,74 @@
+Metadata-Version: 2.4
+Name: ichec_api
+Version: 0.0.0
+Summary: A simple FastAPI module with GET and POST endpoints, YAML config, and Basic Auth
+Author-email: Irish Centre for High End Computing <platformengineering@ichec.ie>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pyyaml
+Requires-Dist: prometheus_fastapi_instrumentator
+Requires-Dist: pydantic
+Requires-Dist: aiokafka
+Requires-Dist: ichec_logger
+Requires-Dist: ichec_monitor@ git+https://git@git.ichec.ie/platform-engineering/plat-monitor.git
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: httpx; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+
+# plat-api
+
+A template web API that can be used as a reference when building web services
+
+# Current Module:
+This module is a simple API Module which 
+
+* Uses FastAPI
+* Contains one GET endpoint
+* Contains one POST endpoint
+* Handles BASIC authentication
+* Uses YAML config to define listening port
+
+
+# Instructions for running:
+
+1. Install dependencies:
+    pip install -r requirements.txt
+
+2. Start the API: Run below script from project root
+    PYTHONPATH=./src python src/ichec_api/run.py
+
+
+3. Access the endpoints at:
+    GET: http://127.0.0.1:8000/status
+    POST: http://127.0.0.1:8000/data
+
+   4. Authenticate with:
+       username: admin
+       password: secret
+
+   5. To test connectivity:
+    
+   Using curl command: 
+    For Get: curl -X GET "http://127.0.0.1:8000/status" -u admin:secret
+    Successful Response is: {"status":"API is running","user":"admin"}     
+
+    For Post: curl -X POST "http://127.0.0.1:8000/data" \
+    -u admin:secret \
+    -H "Content-Type: application/json" \
+    -d '{"name": "example", "value": 42}'
+    Successful Response is: {"message":"Data received from admin","data":{"name":"example","value":42}}
+
+    Through Swagger UI at: http://127.0.0.1:8000/docs
+    Choose desired method (Get or Post), click 'Try it out', provide appropriate input parametrs (if needed), provide authorization credentials of username and password and click 'Execute' 
+    
+    For E2E testing of GET and POST methods with and without authentication, run the API server (as mentioned in 2 above), and then run from another terminal python test/e2e_test.py
+    
+
+
+

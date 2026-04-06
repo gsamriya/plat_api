@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pyyaml
+prometheus_fastapi_instrumentator
+pydantic
+aiokafka
+ichec_logger
+ichec_monitor@ git+https://git@git.ichec.ie/platform-engineering/plat-monitor.git
+
+[dev]
+pytest
+pytest-cov
+flake8
+black
+httpx
+pytest-asyncio
