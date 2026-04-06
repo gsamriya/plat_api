@@ -216,12 +216,8 @@ To enable publishing asynchronous requests to Kafka cluster:
 ---
 ## Documents endpoints in Swagger YAML
 
+Interactive Docs: http://localhost:8000/docs
 The module provides full API documentation using a Swagger-compliant OpenAPI YAML file. This enables clear, structured, and version-controlled specifications for all endpoints. The documentation is automatically rendered using FastAPI’s interactive Swagger UI, allowing developers and users to explore available routes, request/response schemas, and authentication methods directly in the browser.
 
-Interactive Docs: http://localhost:8000/docs
 
 This makes it easy to test APIs, generate client SDKs, and ensure consistent interface definitions across environments.
-
----
-## Support
-For issues or contributions, contact: `platformengineering@org.ie`
