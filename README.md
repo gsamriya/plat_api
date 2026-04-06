@@ -1,6 +1,6 @@
 # plat-api
 
-A lightweight, production-ready FastAPI service template developed at the Irish Centre for High-End Computing (org). It supports robust API development with built-in logging, monitoring, authentication, configuration via YAML, and optional Kafka integration.
+A lightweight, production-ready FastAPI service template. It supports robust API development with built-in logging, monitoring, authentication, configuration via YAML, and optional Kafka integration.
 
 ---
 
