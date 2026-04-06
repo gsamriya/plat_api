@@ -1,0 +1,42 @@
+[project]
+name = "org_api"
+dynamic = ["version"]
+description = "A simple FastAPI module with GET and POST endpoints, YAML config, and Basic Auth"
+authors = [
+  { name = "Irish Centre for High End Computing", email = "platformengineering@org.ie" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "pyyaml",
+  "prometheus_fastapi_instrumentator",
+  "pydantic",
+  "aiokafka",
+  "sqlmodel",
+  "org_logger",
+  "org_monitor @ git+https://git@git.org.ie/platform-engineering/plat-monitor.git"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "flake8",
+  "black",
+  "httpx",
+  "pytest-asyncio"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+packages = ["org_api"]
+package-dir = {"org_api" = "src/org_api"}
+
+[tool.setuptools.dynamic]
+version = {attr = "org_api.__version__.__version__"}

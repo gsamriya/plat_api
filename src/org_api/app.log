@@ -1,0 +1,473 @@
+2025-06-09T16:50:57.444Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-09T16:50:57.459Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 15.03ms
+2025-06-09T16:51:02.514Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T16:51:02.518Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.82ms
+2025-06-09T16:51:03.384Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T16:51:03.473Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 88.78ms
+2025-06-09T16:51:22.748Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/status?param=false
+2025-06-09T16:51:22.755Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.52ms
+2025-06-09T16:51:43.658Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T16:51:43.665Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.49ms
+2025-06-09T16:52:38.911Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T16:52:38.912Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 0.87ms
+2025-06-09T16:52:39.229Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T16:52:39.230Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 0.87ms
+2025-06-09T16:52:42.645Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/metrics
+2025-06-09T16:52:42.660Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 15.54ms
+2025-06-09T17:06:01.896Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-09T17:06:01.900Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 3.83ms
+2025-06-09T17:06:06.667Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T17:06:06.668Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.09ms
+2025-06-09T17:06:07.430Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T17:06:07.444Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 13.74ms
+2025-06-09T17:06:09.147Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/status
+2025-06-09T17:06:09.153Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.75ms
+2025-06-09T17:06:44.600Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://localhost:8000/data
+2025-06-09T17:06:44.612Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 11.49ms
+2025-06-09T17:10:54.730Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://localhost:8000/data
+2025-06-09T17:10:54.734Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.96ms
+2025-06-09T17:17:43.252Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://localhost:8000/data
+2025-06-09T17:17:43.254Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.85ms
+2025-06-09T19:11:16.588Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:11:16.643Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 58.02ms
+2025-06-09T19:11:17.126Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:11:17.401Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 274.65ms
+2025-06-09T19:11:49.059Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:11:49.285Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 225.95ms
+2025-06-09T19:13:56.613Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-09T19:13:56.635Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 23.86ms
+2025-06-09T19:13:59.913Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:13:59.974Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 61.88ms
+2025-06-09T19:14:00.448Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:14:00.505Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 57.44ms
+2025-06-09T19:14:06.448Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/data
+2025-06-09T19:14:06.514Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 405 in 66.15ms
+2025-06-09T19:14:17.962Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:14:17.965Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.45ms
+2025-06-09T19:14:18.403Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:14:18.405Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.75ms
+2025-06-09T19:14:38.130Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:16:38.348Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 120217.57ms
+2025-06-09T19:17:09.315Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:22:17.223Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 307904.75ms
+2025-06-09T19:24:22.754Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:24:22.802Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 49.17ms
+2025-06-09T19:24:23.093Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:24:23.115Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 22.09ms
+2025-06-09T19:24:36.308Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:26:00.727Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 84419.25ms
+2025-06-09T19:26:12.952Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:27:44.141Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-09T19:27:44.152Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 10.98ms
+2025-06-09T19:27:50.342Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:27:50.372Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 30.51ms
+2025-06-09T19:27:50.744Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:27:50.778Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 34.42ms
+2025-06-09T19:28:07.648Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:30:25.422Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 137773.56ms
+2025-06-09T19:31:29.194Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-09T19:31:29.221Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 26.79ms
+2025-06-09T19:31:32.374Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:31:32.387Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 13.46ms
+2025-06-09T19:31:32.749Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:31:32.790Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 40.66ms
+2025-06-09T19:31:46.716Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-09T19:32:10.021Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 23305.50ms
+2025-06-09T19:47:26.300Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-09T19:47:26.316Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 15.77ms
+2025-06-09T19:47:29.556Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-09T19:47:29.561Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.80ms
+2025-06-09T19:47:30.013Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-09T19:47:30.039Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 26.06ms
+2025-06-09T19:47:52.365Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://127.0.0.1:8000/data?source=unknown
+2025-06-11T16:39:04.081Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/
+2025-06-11T16:39:04.090Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 8.49ms
+2025-06-11T16:39:09.122Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/docs
+2025-06-11T16:39:09.131Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 9.10ms
+2025-06-11T16:39:10.730Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://127.0.0.1:8000/openapi.json
+2025-06-11T16:39:10.753Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 22.82ms
+2025-06-13T09:22:20.078Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-13T09:22:20.109Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 31.51ms
+2025-06-13T09:22:28.414Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status
+2025-06-13T09:22:28.416Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 2.47ms
+2025-06-13T09:22:38.067Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T09:22:38.069Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.44ms
+2025-06-13T09:22:38.926Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T09:22:38.947Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 21.70ms
+2025-06-13T09:23:22.209Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T09:23:22.234Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 25.22ms
+2025-06-13T13:01:17.058Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-13T13:01:17.062Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 4.55ms
+2025-06-13T13:01:26.072Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T13:01:26.078Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.67ms
+2025-06-13T13:01:26.771Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T13:01:26.826Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 55.22ms
+2025-06-13T13:02:09.517Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T13:02:09.528Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 10.92ms
+2025-06-13T13:02:51.898Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T13:02:51.906Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 8.92ms
+2025-06-13T13:10:00.559Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-13T13:10:00.568Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 9.66ms
+2025-06-13T13:10:03.437Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T13:10:03.439Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.33ms
+2025-06-13T13:10:03.720Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T13:10:03.739Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 19.08ms
+2025-06-13T13:10:13.725Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:10:13.727Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 2.47ms
+2025-06-13T13:10:43.179Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:10:43.188Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 8.91ms
+2025-06-13T13:11:02.470Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:11:02.472Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 1.39ms
+2025-06-13T13:11:25.078Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:11:25.078Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 0.72ms
+2025-06-13T13:11:31.274Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:11:31.276Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 1.86ms
+2025-06-13T13:12:02.426Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:12:02.429Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 3.18ms
+2025-06-13T13:12:26.248Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T13:12:26.256Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.89ms
+2025-06-13T13:12:26.357Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T13:12:26.359Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.72ms
+2025-06-13T13:12:40.439Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:12:40.443Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.51ms
+2025-06-13T13:12:55.508Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/metrics
+2025-06-13T13:12:55.510Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 3.52ms
+2025-06-13T14:09:39.771Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-13T14:11:52.312Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-13T14:11:52.314Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 2.73ms
+2025-06-13T14:11:56.660Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T14:11:56.662Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.68ms
+2025-06-13T14:11:57.929Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T14:11:57.982Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 52.69ms
+2025-06-13T14:12:22.228Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T14:12:22.238Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 401 in 9.65ms
+2025-06-13T14:13:10.122Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T14:13:10.156Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 33.86ms
+2025-06-13T16:30:55.694Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-13T16:30:55.701Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 6.47ms
+2025-06-13T16:33:28.428Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:33:28.472Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 43.75ms
+2025-06-13T16:33:43.296Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:33:43.302Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.62ms
+2025-06-13T16:33:58.298Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:33:58.346Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 47.87ms
+2025-06-13T16:34:13.288Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:34:13.296Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.95ms
+2025-06-13T16:34:28.264Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:34:28.279Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 15.30ms
+2025-06-13T16:34:43.255Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:34:43.257Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.91ms
+2025-06-13T16:34:58.254Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:34:58.257Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.08ms
+2025-06-13T16:35:13.296Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:35:13.334Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 37.77ms
+2025-06-13T16:35:28.227Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:35:28.252Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 24.83ms
+2025-06-13T16:35:43.238Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:35:43.280Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 42.08ms
+2025-06-13T16:35:58.195Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:35:58.203Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 8.62ms
+2025-06-13T16:36:13.194Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:36:13.200Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.72ms
+2025-06-13T16:36:28.178Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:36:28.180Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.87ms
+2025-06-13T16:36:43.218Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:36:43.263Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 45.10ms
+2025-06-13T16:36:55.513Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T16:36:55.621Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 107.92ms
+2025-06-13T16:36:57.851Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T16:36:58.426Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 577.62ms
+2025-06-13T16:36:58.428Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:36:58.435Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.91ms
+2025-06-13T16:37:13.140Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:37:13.144Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.06ms
+2025-06-13T16:37:19.019Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:19.075Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 56.23ms
+2025-06-13T16:37:23.351Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:23.354Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.61ms
+2025-06-13T16:37:25.045Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:25.050Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.57ms
+2025-06-13T16:37:25.601Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:25.608Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.29ms
+2025-06-13T16:37:26.575Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:26.576Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.08ms
+2025-06-13T16:37:26.877Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:26.884Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.43ms
+2025-06-13T16:37:27.045Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/status?param=false
+2025-06-13T16:37:27.051Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.45ms
+2025-06-13T16:37:28.147Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:37:28.150Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.21ms
+2025-06-13T16:37:43.128Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:37:43.141Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.94ms
+2025-06-13T16:37:58.116Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:37:58.125Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 9.81ms
+2025-06-13T16:38:13.102Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:38:13.108Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.17ms
+2025-06-13T16:38:28.091Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:38:28.096Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.99ms
+2025-06-13T16:38:38.079Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T16:38:38.241Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 162.24ms
+2025-06-13T16:38:39.424Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: POST http://0.0.0.0:8000/data?source=unknown
+2025-06-13T16:38:39.472Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 47.94ms
+2025-06-13T16:38:43.082Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:38:43.094Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.67ms
+2025-06-13T16:38:58.075Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:38:58.082Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.32ms
+2025-06-13T16:39:13.080Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:39:13.087Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.87ms
+2025-06-13T16:39:28.059Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:39:28.065Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.35ms
+2025-06-13T16:39:43.042Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:39:43.048Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.25ms
+2025-06-13T16:39:58.033Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:39:58.040Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.88ms
+2025-06-13T16:40:13.016Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:40:13.019Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.36ms
+2025-06-13T16:40:28.017Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:40:28.023Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.15ms
+2025-06-13T16:40:42.999Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:40:43.011Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.43ms
+2025-06-13T16:40:57.989Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:40:58.013Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 24.27ms
+2025-06-13T16:41:13.191Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:41:13.207Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 16.18ms
+2025-06-13T16:41:27.971Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:41:27.978Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.77ms
+2025-06-13T16:41:42.963Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:41:42.973Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 10.93ms
+2025-06-13T16:41:57.947Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:41:57.953Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.79ms
+2025-06-13T16:42:12.941Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:42:12.982Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 40.71ms
+2025-06-13T16:42:27.930Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:42:27.942Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 11.77ms
+2025-06-13T16:42:42.919Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:42:42.922Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.12ms
+2025-06-13T16:42:57.936Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:42:57.943Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.71ms
+2025-06-13T16:43:12.904Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:43:12.925Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 21.73ms
+2025-06-13T16:43:27.881Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:43:27.895Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 13.58ms
+2025-06-13T16:43:42.870Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:43:42.882Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.00ms
+2025-06-13T16:43:57.862Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:43:57.866Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.21ms
+2025-06-13T16:44:12.850Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:44:12.856Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.18ms
+2025-06-13T16:44:27.851Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:44:27.857Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.50ms
+2025-06-13T16:44:42.833Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:44:42.848Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 14.94ms
+2025-06-13T16:44:57.823Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:44:57.830Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.49ms
+2025-06-13T16:45:12.806Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:45:12.810Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.14ms
+2025-06-13T16:45:27.799Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:45:27.812Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 13.45ms
+2025-06-13T16:45:42.799Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:45:42.837Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 43.20ms
+2025-06-13T16:45:57.780Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:45:57.790Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 10.40ms
+2025-06-13T16:46:12.767Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:46:12.770Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.75ms
+2025-06-13T16:46:27.776Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:46:27.785Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 9.35ms
+2025-06-13T16:46:42.746Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:46:42.753Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.29ms
+2025-06-13T16:46:57.752Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:46:57.772Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 20.79ms
+2025-06-13T16:47:12.723Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:47:12.726Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.35ms
+2025-06-13T16:47:27.734Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:47:27.769Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 35.18ms
+2025-06-13T16:47:42.708Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:47:42.720Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.20ms
+2025-06-13T16:47:57.692Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:47:57.698Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.29ms
+2025-06-13T16:48:12.685Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:48:12.698Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 13.44ms
+2025-06-13T16:48:27.691Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:48:27.708Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 16.67ms
+2025-06-13T16:48:42.705Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:48:42.731Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 25.51ms
+2025-06-13T16:48:57.649Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:48:57.659Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 9.81ms
+2025-06-13T16:49:12.648Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:49:12.655Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.92ms
+2025-06-13T16:49:27.633Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:49:27.657Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 24.33ms
+2025-06-13T16:49:42.615Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:49:42.628Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.79ms
+2025-06-13T16:49:57.744Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:49:57.758Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 14.64ms
+2025-06-13T16:50:12.596Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:50:12.600Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.66ms
+2025-06-13T16:50:27.581Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:50:27.585Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.59ms
+2025-06-13T16:50:42.578Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:50:42.592Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 13.89ms
+2025-06-13T16:50:57.562Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:50:57.578Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 16.42ms
+2025-06-13T16:51:12.553Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:51:12.562Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 9.78ms
+2025-06-13T16:51:27.552Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:51:27.560Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.91ms
+2025-06-13T16:51:42.532Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:51:42.538Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.72ms
+2025-06-13T16:51:57.551Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:51:57.556Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.86ms
+2025-06-13T16:52:12.509Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:52:12.514Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.63ms
+2025-06-13T16:52:27.510Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:52:27.539Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 28.49ms
+2025-06-13T16:52:42.484Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:52:42.492Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.59ms
+2025-06-13T16:52:57.483Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:52:57.494Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 11.36ms
+2025-06-13T16:53:12.463Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:53:12.469Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.41ms
+2025-06-13T16:53:27.557Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:53:27.563Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.95ms
+2025-06-13T16:53:42.455Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:53:42.479Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 24.77ms
+2025-06-13T16:53:57.465Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:53:57.486Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 20.81ms
+2025-06-13T16:54:12.422Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:54:12.432Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 9.98ms
+2025-06-13T16:54:16.533Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-13T16:54:16.565Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 31.64ms
+2025-06-13T16:54:17.415Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-13T16:54:17.499Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 84.20ms
+2025-06-13T16:54:27.448Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:54:27.464Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 15.64ms
+2025-06-13T16:54:42.403Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:54:42.418Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 15.23ms
+2025-06-13T16:54:57.412Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:54:57.434Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 22.94ms
+2025-06-13T16:55:12.378Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:55:12.389Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 10.71ms
+2025-06-13T16:55:27.369Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:55:27.384Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 15.06ms
+2025-06-13T16:55:42.359Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:55:42.376Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 16.53ms
+2025-06-13T16:55:57.349Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:55:57.352Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.84ms
+2025-06-13T16:56:12.339Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:56:12.343Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.93ms
+2025-06-13T16:56:27.325Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:56:27.344Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 18.69ms
+2025-06-13T16:56:42.320Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:56:42.324Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.34ms
+2025-06-13T16:56:57.303Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:56:57.305Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.50ms
+2025-06-13T16:57:12.298Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-13T16:57:12.302Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.47ms
+2025-06-15T18:39:08.528Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:39:08.534Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.33ms
+2025-06-15T18:39:23.476Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:39:23.479Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.95ms
+2025-06-15T18:39:38.464Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:39:38.468Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.12ms
+2025-06-15T18:39:53.451Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:39:53.454Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.71ms
+2025-06-15T18:40:08.440Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:40:08.442Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.65ms
+2025-06-15T18:40:23.431Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:40:23.433Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.77ms
+2025-06-15T18:40:38.421Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:40:38.424Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.88ms
+2025-06-15T18:40:53.411Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:40:53.414Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.76ms
+2025-06-15T18:41:08.402Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:41:08.404Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.56ms
+2025-06-15T18:41:23.389Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:41:23.392Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.57ms
+2025-06-15T18:41:38.379Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:41:38.382Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.92ms
+2025-06-15T18:41:53.367Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:41:53.370Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.72ms
+2025-06-15T18:42:08.366Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:42:08.373Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.43ms
+2025-06-15T18:42:23.351Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:42:23.354Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.40ms
+2025-06-15T18:42:38.339Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:42:38.342Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.93ms
+2025-06-15T18:42:53.326Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:42:53.329Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.52ms
+2025-06-15T18:43:08.316Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:43:08.393Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 76.64ms
+2025-06-15T18:43:23.312Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:43:23.315Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.74ms
+2025-06-15T18:43:38.296Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:43:38.299Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.66ms
+2025-06-15T18:43:53.284Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:43:53.287Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.90ms
+2025-06-15T18:44:08.274Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:44:08.276Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.59ms
+2025-06-15T18:44:23.273Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:44:23.276Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.57ms
+2025-06-15T18:44:38.263Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:44:38.266Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.70ms
+2025-06-15T18:44:53.244Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:44:53.252Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 8.04ms
+2025-06-15T18:45:08.239Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:45:08.245Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.16ms
+2025-06-15T18:45:23.223Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:45:23.226Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.52ms
+2025-06-15T18:45:38.213Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:45:38.216Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.94ms
+2025-06-15T18:45:53.203Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:45:53.210Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.51ms
+2025-06-15T18:46:08.195Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T18:46:08.196Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.97ms
+2025-06-15T21:14:33.186Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:14:33.192Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.84ms
+2025-06-15T21:14:48.130Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:14:48.134Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.66ms
+2025-06-15T21:15:03.117Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:15:03.119Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.62ms
+2025-06-15T21:15:18.110Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:15:18.115Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.62ms
+2025-06-15T21:19:17.954Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:19:17.960Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 5.93ms
+2025-06-15T21:19:32.941Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:19:32.945Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.76ms
+2025-06-15T21:21:02.883Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:21:02.887Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.20ms
+2025-06-15T21:23:02.796Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-15T21:23:02.804Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 7.48ms
+2025-06-16T08:38:06.428Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-16T08:38:06.437Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 9.73ms
+2025-06-16T08:38:11.557Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-16T08:38:11.559Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 2.15ms
+2025-06-16T08:38:13.452Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-16T08:38:13.494Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 41.31ms
+2025-06-16T08:38:15.793Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:38:15.812Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 19.04ms
+2025-06-16T08:38:30.744Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:38:30.749Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.56ms
+2025-06-16T08:38:45.732Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:38:45.736Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.80ms
+2025-06-16T08:38:50.527Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.yaml
+2025-06-16T08:38:50.530Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 3.78ms
+2025-06-16T08:39:00.722Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:39:00.726Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 3.87ms
+2025-06-16T08:39:15.706Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:39:15.713Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 6.96ms
+2025-06-16T08:39:30.698Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:39:30.710Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 12.45ms
+2025-06-16T08:39:45.695Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://host.docker.internal:8000/metrics
+2025-06-16T08:39:45.700Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 4.88ms
+2025-06-16T09:49:56.815Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-16T09:49:56.833Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 17.31ms
+2025-06-16T09:50:03.163Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-16T09:50:03.169Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 8.20ms
+2025-06-16T09:50:04.793Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-16T09:50:04.957Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 164.79ms
+2025-06-16T10:12:29.134Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/
+2025-06-16T10:12:29.147Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 404 in 12.60ms
+2025-06-16T10:12:34.300Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/docs
+2025-06-16T10:12:34.302Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 1.85ms
+2025-06-16T10:12:36.058Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:14 | Request: GET http://0.0.0.0:8000/openapi.json
+2025-06-16T10:12:36.088Z | INFO | administrators-MacBook-Air.local | logger_middleware.py:dispatch:17 | Response status: 200 in 30.43ms

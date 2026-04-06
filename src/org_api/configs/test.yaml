@@ -1,0 +1,8 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+kafka:
+  enabled: true
+  bootstrap_servers: host.docker.internal:9092 #"localhost:9092" if through pycharm local terminal and not docker. Use pycharm for demo
+  topic: "topic-name"
